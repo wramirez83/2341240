@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16;
-    background-color: #333;
+    font-family: 'Anaheim', sans-serif;
+    
 }
 
 main{
@@ -43,3 +44,24 @@ input:focus{
     background-repeat: no-repeat;
     background-position: 10px 10px;
 }
+button{
+    margin-top:15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 216, 216)
+}
+button:hover{
+    background-color: rgba(212, 205, 205, 0.712);
+}
+
+.error{
+    border-color:red;
+}
+
+.success{
+    border-color:green;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
